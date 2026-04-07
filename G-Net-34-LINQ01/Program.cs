@@ -79,11 +79,29 @@ namespace G_Net_34_LINQ01
             #region Q7
             ////Print each product's name along with its position (1-based)
             ////in the list. Expected format: 1.Chai, 2.Chang, etc?
-            
+
             //var query=ProductList
             //    .Select((p,i)=> $"{i+1}. {p.ProductName}");
             //Helper.Print("Q7", query);
             #endregion
+            #region Q8
+            /*
+             * Sort ProductList by Category ascending, then within each category, sort by UnitPrice descending.
+             */
+            ////[Fluent syntax]
+            //var query=ProductList
+            //    .OrderBy(p=>p.Category)
+            //    .ThenByDescending(p=>p.UnitPrice);
+            //Helper.Print("Q8", query);
+
+            ////[Query syntax]
+            //var query2=from p in ProductList
+            //           orderby p.Category ,p.UnitPrice descending
+            //           select p;
+            //Helper.Print("Q8", query2);
+
+            #endregion
+
 
         }
     }
