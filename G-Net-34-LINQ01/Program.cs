@@ -101,7 +101,16 @@ namespace G_Net_34_LINQ01
             //Helper.Print("Q8", query2);
 
             #endregion
-
+            #region Q9
+            /*
+             * Get all products from the "Beverages" category, sorted by UnitsInStock descending. Print name and stock.
+             */
+            //var query = ProductList
+            //    .Where(p => p.Category == "Beverages")
+            //    .OrderByDescending(p => p.UnitPrice)
+            //    .Select(p => $"ProductName :{p.ProductName}  | Stock : {p.UnitsInStock}");
+            //Helper.Print("Q9", query);
+            #endregion
 
         }
     }
