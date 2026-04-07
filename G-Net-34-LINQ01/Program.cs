@@ -111,6 +111,20 @@ namespace G_Net_34_LINQ01
             //    .Select(p => $"ProductName :{p.ProductName}  | Stock : {p.UnitsInStock}");
             //Helper.Print("Q9", query);
             #endregion
+            #region Q10
+            /*
+             * Using QUERY SYNTAX with a compound from clause, list
+             *  all orders placed in 1997 or later showing CustomerID and OrderDate.
+             */
+            //var query = from c in CustomerList
+            //            from o in c.Orders
+            //            where o.OrderDate.Year >= 1997
+            //            select new { c.CustomerID, o.OrderDate };
+            //Helper.Print("Q10", query);
+            #endregion
+
+
+
 
         }
     }
