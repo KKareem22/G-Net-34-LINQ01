@@ -13,6 +13,17 @@ namespace G_Net_34_LINQ01
             //    .Select(p =>$"ProductName :{p.ProductName} | Price : {p.UnitPrice}  ");
             //Helper.Print("Q1", query);
             #endregion
+            #region Q2
+            /*Get a list of only the product names from ProductList. Print
+                each name.
+             */
+            //var query=ProductList
+            //    .Select((p,i) => $"ProductName#{i+1} :"+p.ProductName);
+            //Helper.Print("Q2", query);
+            #endregion
+
+
+
 
         }
     }
