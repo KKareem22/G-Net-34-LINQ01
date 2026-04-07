@@ -76,7 +76,14 @@ namespace G_Net_34_LINQ01
             //    });
             //Helper.Print("Q6", query);
             #endregion
-
+            #region Q7
+            ////Print each product's name along with its position (1-based)
+            ////in the list. Expected format: 1.Chai, 2.Chang, etc?
+            
+            //var query=ProductList
+            //    .Select((p,i)=> $"{i+1}. {p.ProductName}");
+            //Helper.Print("Q7", query);
+            #endregion
 
         }
     }
