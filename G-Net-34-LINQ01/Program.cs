@@ -1,4 +1,5 @@
 ﻿using G_Net_34_LINQ01.Models;
+using System.Diagnostics.Metrics;
 using static G_Net_34_LINQ01.DataSources.Source;
 namespace G_Net_34_LINQ01
 {
@@ -141,7 +142,18 @@ namespace G_Net_34_LINQ01
             //    .ThenBy(s => s, new StringCompareIgnoreCase());
             //Helper.Print("Q12", query);
             #endregion
-
+            #region Q13
+            //Create a list of all digits in the array whose second
+            //letter is 'i' that is reversed from the order in the
+            //original array.
+            //string[] digits = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+            //int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //var query = nums
+            //    .Select(n => digits[n])
+            //    .Where(word => word[1] == 'i')
+            //    .Reverse();
+            //Helper.Print("Q13", query);
+            #endregion
 
         }
     }
