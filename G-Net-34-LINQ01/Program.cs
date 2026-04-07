@@ -21,7 +21,14 @@ namespace G_Net_34_LINQ01
             //    .Select((p,i) => $"ProductName#{i+1} :"+p.ProductName);
             //Helper.Print("Q2", query);
             #endregion
-
+            #region Q03
+            /*Sort all products by UnitPrice (ascending). Print each
+            product's name and price.*/
+            //var query=ProductList
+            //    .OrderBy(p=>p.UnitPrice)
+            //    .Select(p => $"ProductName :{p.ProductName} | Price : {p.UnitPrice}  ");
+            //Helper.Print("Q3", query);
+            #endregion
 
 
 
