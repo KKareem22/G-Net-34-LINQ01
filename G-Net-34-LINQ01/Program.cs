@@ -59,6 +59,24 @@ namespace G_Net_34_LINQ01
             //             select p;
             //Helper.Print("Q5 ", query2);
             #endregion
+            #region Q6
+            /*6. Create a new anonymous type with three properties:
+            ● Name → the product name
+            ● Price → the unit price
+            ● StockStatus → a string: "Available" if UnitsInStock > 0,
+            otherwise "Out of Stock"
+            ● Print the result.
+            */
+            //var query = ProductList
+            //    .Select(p => new
+            //    {
+            //        Name = p.ProductName,
+            //        Price = p.UnitPrice,
+            //        StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //    });
+            //Helper.Print("Q6", query);
+            #endregion
+
 
         }
     }
