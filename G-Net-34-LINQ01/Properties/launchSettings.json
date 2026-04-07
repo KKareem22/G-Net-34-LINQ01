@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "G-Net-34-LINQ01": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
