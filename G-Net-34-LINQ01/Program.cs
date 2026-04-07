@@ -29,7 +29,23 @@ namespace G_Net_34_LINQ01
             //    .Select(p => $"ProductName :{p.ProductName} | Price : {p.UnitPrice}  ");
             //Helper.Print("Q3", query);
             #endregion
+            #region Q4
+            //Get all products where UnitPrice is between 10 and 30
+            ////Fluent syntax
+            //var query = ProductList
+            //    .Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30)
+            //    .Select(p=>p);
+            //Helper.Print("Q4", query);
 
+            ////Query syntax
+            //var query2 = from p in ProductList
+            //             where p.UnitPrice >= 10 && p.UnitPrice <= 30
+            //             select p;
+
+            
+            //Helper.Print("Q4", query2);
+
+            #endregion
 
 
         }
