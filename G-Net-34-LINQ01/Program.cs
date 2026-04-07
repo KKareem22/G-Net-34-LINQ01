@@ -42,11 +42,23 @@ namespace G_Net_34_LINQ01
             //             where p.UnitPrice >= 10 && p.UnitPrice <= 30
             //             select p;
 
-            
+
             //Helper.Print("Q4", query2);
 
             #endregion
+            #region Q5
+            //Get all products that are in stock (UnitsInStock > 0) and belong to the "Condiments" category ?
+            ////[Fluent syntax]
+            //var query = ProductList
+            //    .Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+            //Helper.Print("Q5", query);
 
+            ////[Query syntax]
+            //var query2 = from p in ProductList
+            //             where p.UnitsInStock > 0 && p.Category == "Condiments"
+            //             select p;
+            //Helper.Print("Q5 ", query2);
+            #endregion
 
         }
     }
