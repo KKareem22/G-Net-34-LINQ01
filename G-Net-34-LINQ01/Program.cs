@@ -122,7 +122,14 @@ namespace G_Net_34_LINQ01
             //            select new { c.CustomerID, o.OrderDate };
             //Helper.Print("Q10", query);
             #endregion
-
+            #region Q11
+            /*
+             * Show position number alongside ProductName
+             */
+            //var query = ProductList
+            //    .Select((p, i) => $"#{i + 1} :{p.ProductName}");
+            //Helper.Print("Q11", query);
+            #endregion
 
 
 
