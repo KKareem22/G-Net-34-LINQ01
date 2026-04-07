@@ -130,7 +130,17 @@ namespace G_Net_34_LINQ01
             //    .Select((p, i) => $"#{i + 1} :{p.ProductName}");
             //Helper.Print("Q11", query);
             #endregion
-
+            #region Q12
+            /*Sort first by-word length and then by a
+             * case-insensitive sort of the words in an array.
+             * String [] Arr = {"aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry"}; 
+             */
+            //string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //var query =Arr
+            //    .OrderBy(s => s.Length)
+            //    .ThenBy(s => s, new StringCompareIgnoreCase());
+            //Helper.Print("Q12", query);
+            #endregion
 
 
         }
